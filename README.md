@@ -2,8 +2,8 @@
 
 Explicit rough input-token estimates and conservative prompt tightening through the PE skill. Not automatic coding-agent metering. The helper uses the same PE account, free quota and Pro entitlement as the website. Prompt text stays local.
 
-## Install from a signed-in download
-Unzip this package on a desktop. Run `gemini extensions install /absolute/path/to/this-folder` in your own terminal, then restart Gemini CLI. This route needs no public repository. Online catalog/repository listing is separate.
+## Install
+Run `gemini extensions install https://github.com/promptefficiently/pe-gemini-cli` in your own terminal, then restart Gemini CLI. Or unzip the download from promptefficiently.com and run `gemini extensions install /absolute/path/to/this-folder`.
 
 ## Sign in and use
 Create a Python 3.10+ virtual environment, install requirements.txt with pip, then run `python pe.py login` in your own terminal. Configure the absolute virtual-environment Python path in your Gemini session, then explicitly ask the PE skill to estimate or tighten supplied prompt text. A functioning secure OS keyring is required. There is no plaintext fallback. Never give the AI your email code or session token.
