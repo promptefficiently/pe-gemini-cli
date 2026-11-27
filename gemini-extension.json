@@ -1,5 +1,5 @@
 {
   "name": "prompt-efficiently",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Explicit rough input-token estimates and conservative prompt tightening. Free Prompt Efficiently account required."
 }
